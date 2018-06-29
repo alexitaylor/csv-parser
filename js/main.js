@@ -1,9 +1,5 @@
-//Papa.parse(file, config)
-console.log(Papa);
+console.log('Starting app...');
 
-// Papa.parse('../parse.csv', {
-//
-// })
 var start, end, parsedData;
 var downloadCount = 1;
 var stepped = 0, rowCount = 0, errorCount = 0, firstError;

@@ -16,6 +16,7 @@ html {
 
 body {
   background: mintcream;
+  height: 100vh;
 }
 
 /*
@@ -424,5 +425,30 @@ div div.ball {
     transform: scaleX(.5);
     opacity: .01;
   }
+}
+
+.container {
+  height: 100vh;
+}
+
+header {
+  padding: 0 1em 1.5em;
+  padding-top: 0;
+}
+
+header ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+header ul li {
+  position: relative;
+  display: inline-block;
+  color: #969492;
+  font-size: .8em;
+  padding: 2px 10px;
+  margin-bottom: 0;
 }
 

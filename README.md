@@ -6,9 +6,9 @@
 * Normalize data: 
   * Currently, able to parse rows and find de-normalized cells (atm cells containing arrays) and create new normalized rows.
   * Example, if cell has an array (de-normalized data) with 2 values:
-  <img src="images/one.png" />
-  * It will create 2 new rows and delete the de-normalized row:
   <img src="images/two.png" />
+  * It will create 2 new rows and delete the de-normalized row:
+  <img src="images/one.png" />
 * Export JSON back to CSV
 
 
